@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form action="">
+      <input placeholder="Name" type="text" id="name" />
+      <input placeholder="Surname" type="text" id="surname" />
+      <input placeholder="Email" type="text" id="email" />
+      <input placeholder="Number" type="text" id="number" />
+      <button type="button" onclick="buttonForm()">CLICK</button>
+    </form>
+    <span id="warning"></span>
+
+    <div
+      id="square"
+      style="background-color: blue; width: 100px; height: 100px"
+    ></div>
+    <button id="left">Left</button>
+    <button id="right">Right</button>
+    <br />
+    <br />
+
+    <button id="plus" onclick="plusMinus(1)">+1</button>
+    <p id="zero">0</p>
+    <button id="minus" onclick="plusMinus(-1)">-1</button>
+
+    <p id="p">He found rain fascinating yet unpleasant</p>
+
+    <button id="colorButton" onclick="color()">Изменить цвет</button>
+    <ol id="list">
+      <li>Элемент 1</li>
+      <li>Элемент 2</li>
+      <li>Элемент 3</li>
+      <li>Элемент 4</li>
+      <li>Элемент 5</li>
+      <li>Элемент 6</li>
+    </ol>
+    <script src="./main.js"></script>
+  </body>
+</html>

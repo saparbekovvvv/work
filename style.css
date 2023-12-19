@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+#list li {
+  transition: color 0.3s ease;
+}
+#list li:nth-child(1) {
+  transition-delay: 0.1s;
+}
+#list li:nth-child(2) {
+  transition-delay: 0.2s;
+}
+#list li:nth-child(3) {
+  transition-delay: 0.3s;
+}
+#list li:nth-child(4) {
+  transition-delay: 0.4s;
+}
+#list li:nth-child(5) {
+  transition-delay: 0.5s;
+}
+#list li:nth-child(6) {
+  transition-delay: 0.6s;
+}
